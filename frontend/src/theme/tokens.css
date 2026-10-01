@@ -1,0 +1,38 @@
+/* Identidad ALMYDEV (extraída de www.almydev.com): tema oscuro por defecto + modo claro, acento azul, Inter. */
+:root,
+[data-theme='dark'] {
+  --bg-primary: #080c18;
+  --bg-secondary: #0d1326;
+  --bg-card: #111a33;
+  --accent: #3b82f6;
+  --accent-light: #60a5fa;
+  --accent-glow: rgba(59, 130, 246, 0.15);
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --border: #1e293b;
+  --gradient-hero: linear-gradient(135deg, #080c18 0%, #0d1326 50%, #111a33 100%);
+  --gradient-accent: linear-gradient(135deg, #3b82f6, #2563eb);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --danger: #ef4444;
+  --success: #22c55e;
+  --warning: #fbbf24;
+  --radius: 12px;
+  --radius-lg: 20px;
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+[data-theme='light'] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-card: #ffffff;
+  --accent: #2563eb;
+  --accent-light: #3b82f6;
+  --accent-glow: rgba(37, 99, 235, 0.12);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --border: #e2e8f0;
+  --gradient-hero: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #e2e8f0 100%);
+  --shadow-card: 0 4px 24px rgba(15, 23, 42, 0.08);
+}
